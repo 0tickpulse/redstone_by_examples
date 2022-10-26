@@ -12,4 +12,5 @@ This repository is a comprehensive guide to Minecraft Redstone. As per the title
 
 ### First Steps
 
+* [Setting up](first_steps/setting_up.md)
 * [Signals](first_steps/signals.md)
