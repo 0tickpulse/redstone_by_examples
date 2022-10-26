@@ -9,3 +9,7 @@ This repository is a comprehensive guide to Minecraft Redstone. As per the title
 * [What is Redstone](background_information/what_is_redstone.md)
 * [How to learn Redstone](background_information/how_to_learn_redstone.md)
 * [This guide](background_information/this_guide.md)
+
+### First Steps
+
+* [Signals](first_steps/signals.md)
