@@ -1,0 +1,3 @@
+# How to learn Redstone
+
+If you have ever done programming, designing, art, or similar, it is very similar to those, in which the best way to learn Redstone is to _do_ - boot up a Minecraft world, start placing Redstone components, and examine how they interact with each other. However, there's a caveat: although experimentation is great, you won't learn very fast by just experimenting. Imagine learning painting by simply painting, without learning about the techniques, or even what a paintbrush is. Similarly, in Redstone, you have to first understand what you're experimenting with. You don't go to a Science lab without knowing anything and put random chemicals together.
