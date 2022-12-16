@@ -1,17 +1,12 @@
-# Signals (PLACEHOLDER)
+# Signals
 
-TODO:
-
-* [ ] Explain signal senders, transmitters and receivers
-* [ ] Explain signal strength
-* [ ] Explain hard-powering and soft-powering
-* [ ] Finish by creating a lighting system
+[Previous page](setting_up.md) | [Next page](delays.md)
 
 The most fundamental concept of Redstone is the concept of Redstone signals. They can be thought of as "power" flowing through blocks.
 
 ## How signals move
 
-Signals can be created through **signal senders** and can be transmitted through **signal transmitters**. The signals can then be received by **signal receivers**. Let's take a small example of a Redstone signal:
+Signals can be created through **signal senders** and can be transmitted through **signal transmitters**. The signals can then be received by **signal receivers**. These three types of blocks are therefore **Redstone components** - blocks that interact with Redstone signals. Let's take a small example of a Redstone signal:
 
 ![A lever, Redstone dust, and a Redstone lamp.](./media//signals/lever_redstone_lamp_off.png)
 
@@ -23,11 +18,21 @@ In that image, however, the signal sender isn't **activated**, meaning that it w
 
 As you can see, the lever is now sending a Redstone signal. The signal is then transmitted through the Redstone dust - notice how it lights up. Finally, it reaches the Redstone lamp and **powers** it. In Redstone, when a block is receiving a signal, it is considered **powered**. In this case, the Redstone dust and the Redstone lamp are powered.
 
+### Directional signals
+
+Take a look at this image:
+
+![Directional signals demonstration](./media/signals/directional_signals_demonstration.png)
+
+Why do you think the second Redstone lamp isn't being powered?
+
+The answer is that the signal is **directional**. The signal is being transmitted through the Redstone dust, but it can only be received by blocks that the Redstone dust is facing. In this case, the Redstone lamp is facing the opposite direction of the signal, so it is not powered. In the first circuit, the Redstone dust is directly facing the block, so it is powered. However, in the second circuit, the Redstone dust is being **redirected** by another Redstone dust, causing it to face another way, so it is not powered.
+
 ## Signal strength
 
 Take a look at this image:
 
-![Demonstration of signal strength](./media//signals/signal_strength_demonstration.png)
+![Demonstration of signal strength](./media/signals/signal_strength_demonstration.png)
 
 In this image, the lever is sending a signal which is being transmitted through the Redstone dust. However, notice that as the signal travels, the Redstone dust is lighting up less and less. This is because of a concept known as **signal strength**. The signal strength is the amount of Redstone dust that the signal can pass through until it becomes non-existent. Most signal receivers have a signal strength of 15, meaning that the signal can pass through 15 Redstone dust blocks. Look at the last Redstone dust - it has a signal strength of 0, and is therefore not powered.
 
@@ -55,7 +60,7 @@ Now that we know how signals work, we can create a simple lighting system.
 
 ### Specification
 
-We want to create a system that will light up two Redstone lamps in the ceiling of a room when it is night time.
+We want to create a system that will light up two Redstone lamps in the ceiling of a room when it is nighttime.
 
 ![The lighting system during daytime](./media/signals/lighting_system_day.png)
 
@@ -69,7 +74,7 @@ Place one down:
 
 ![Daylight detector](./media/signals/daylight_detector.png)
 
-Look at the Redstone signal during daytime and nighttime. Notice that the Redstone is only powered during the day. We want to inver this. To do this, right-click the daylight detector. This will cause it to go to the "Inverted daylight detector" mode (keep in mind that this inversion is unique to the daylight detector). Now, the Redstone signal is only powered during the night.
+Look at the Redstone signal during daytime and nighttime. Notice that the Redstone is only powered during the day. We want to invert this. To do this, right-click the daylight detector. This will cause it to go to the "Inverted daylight detector" mode (keep in mind that this inversion is unique to the daylight detector). Now, the Redstone signal is only powered during the night.
 
 Now place your daylight detector above the ceiling of your room:
 
@@ -86,3 +91,21 @@ Congratulations! You have created your first Redstone contraption! This conclude
 ## Summary
 
 In this section, we learned about the concept of Redstone signals. We learned how they move, how they are created, and how they are received. We also learned about signal strength and hard-powering vs soft-powering. Finally, we created a simple lighting system that lights up during the night.
+
+[Previous page](setting_up.md) | [Next page](delays.md)
+
+## Challenges
+
+### Challenge 1
+
+We briefly mentioned that Redstone dust is directional. Find out why this makes target blocks extremely useful.
+
+### Challenge 2
+
+Find out how this circuit works:
+
+![A strange circuit](./media/signals/challenge_2.png)
+
+In addition, build this in both Java edition and Bedrock edition and see if it works the same way.
+
+If you don't know how it works, don't worry, it will be covered in the future.
