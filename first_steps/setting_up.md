@@ -1,4 +1,4 @@
-# Setting Up (IN PROGRESS)
+# Setting Up
 
 Our journey begins here: we are going to start with the basics of Redstone. But before we create cool stuff, we have to first learn some of the basics.
 
@@ -6,7 +6,7 @@ Our journey begins here: we are going to start with the basics of Redstone. But 
 
 When you launch Minecraft, click on `Singleplayer`. If you're in a world browser, click `Create New World`. Now, configure the options you want, but the important thing is that you click on `More World Options...`, and change `World Type` to `Superflat`.
 
-![Choosing the superflat world type](../media/create_world_superflat.png)
+![Choosing the superflat world type](./media//setting_up/create_world_superflat.png)
 
 After you have finished choosing what you want in your world, you can click on `Create New World` on the bottom left, and you're done!
 
@@ -14,7 +14,7 @@ After you have finished choosing what you want in your world, you can click on `
 
 Now, open your creative inventory. If you have played Creative mode before, this should be familiar to you. The creative inventory has tabs of items to browse through. Go to the tab with the Redstone dust icon, labeled "Redstone":
 
-![The Redstone tab of the creative inventory](../media/creative_redstone_tab.png)
+![The Redstone tab of the creative inventory](./media/setting_up/creative_redstone_tab.png)
 
 (If you're extra savvy, you could use a feature called saved hotbars, but we won't get into those.)
 
